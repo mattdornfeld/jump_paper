@@ -60,7 +60,10 @@ To fit data to this model, we examined the frequency jump points from thousands 
 \end{center} 
 \end{figure}
 To fit the extracted jump points to Eq. \ref{eq:whistle} we developed a clustering algorithm, which as input, accepts a list of slopes of straight lines. The number of clusters in the output is equal to the length of the list. The algorithm then iterates over each jump point in the dataset and computes the perpendicular distance of the point to the line defined by each slope. The point is then assigned to the line for which this value is minimum. If $\left(f_{1},\: f_{2}\right)$ and $\left(n,\: n\pm1\right)$ are the frequencies and mode numbers before and after a jump respectively, by dividing the after jump frequency mode relation by the before jump relation, we get 
-\begin{equation}\frac{f_{2}}{f_{1}}=m(c,\gamma)=\frac{n\pm1-\gamma}{n-\gamma},\label{eq:freqmode2}\end{equation}
+\begin{equation}
+\label{eq:freqmode2}
+\frac{f_{2}}{f_{1}}=m(c,\gamma)=\frac{n\pm1-\gamma}{n-\gamma},
+\end{equation}
 where $c$ is the cluster to which that jump has been assigned, and $\left(n,\: n\pm1\right)$ is a function of the cluster. Several mode transitions were experimented with to best fit the data. In the extracted jumps, we found transitions in mode numbers ranging from $n=2$ to $n=6$. The $n=1$ mode seems to correspond to 22 kHz alarm calls, which do not exhibit jumps as often and therefore are not represented in our dataset. Not all rats in our study produced enough jumps in all mode regions to fit the data to our algorithm, so underpopulated modes were excluded for some rats. Equation \ref{eq:freqmode2} can then be used to generate the slopes needed as input for the algorithm. We can define a cost function that adds up the squares of the perpendicular distances of each point to their assigned line. 
 \begin{equation}
 \label{eq:cost}
