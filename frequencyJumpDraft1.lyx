@@ -1,0 +1,143 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass revtex4-1
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex8
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Although the purposes of animal communication are staggeringly numerous,
+ the apparatus by which they are produced seems to be largely conserved
+ across mammal and bird species.
+ This apparatus consists of membranous vocal fold tissues stretch across
+ the larynx (or syrinx in birds).
+ This tissue attaches to laryngeal muscles, which can alter its tension
+ and degree of adduction.
+ When air is forced past them by the lungs, the vocal folds oscillate and
+ emit audible sounds, the frequency of which are determined by the vocal
+ fold tension.
+ Across species, the fundamental frequency of mammalian vocalizations obey
+ a power law of the form 
+\begin_inset Formula $f\propto M^{-0.4}$
+\end_inset
+
+, where M is the species average mass in kg.
+ This scaling law agrees well with the audible rat vocalizations of 2-3
+ khz.
+ However, many rodent species have the somewhat remarkable ability to break
+ this scaling by over an order of magnitude and vocalize into the ultrasonic
+ range.
+ Typical rat ultrasonic vocalizations consists of pure tones in the 20-80
+ khz range.
+ This suggests the production mechanism for these calls is fundamentally
+ different than that of their sonic counterparts.
+\end_layout
+
+\begin_layout Standard
+Although the rodent ultrasound production mechanism has not been widely
+ investigated, several studies on rats suggest that these callas are actually
+ the result of a whistle mechanism, in which is forced through a tight aperture
+ of constant radius, created by adduction of the vocal folds.
+ 
+\end_layout
+
+\begin_layout Standard
+A hole tone is a high pitched call that is generated when a stream of air
+ issues from a circular hole at velocity 
+\begin_inset Formula $U$
+\end_inset
+
+ and strikes symmetrically on a hole in a neighboring plate.
+ Raleigh conjectured that pressure fluctuations generated at the second
+ hole provide a feedback mechanism by causing pulsations in the flow rate
+ that excite antisymmetric instabilities of the jet.
+ At large Reynolds numbers, these instabilities grow into a succession of
+ vortex rings that interact periodically with the second hole.
+ Hole tones are known to exhibit discontinuous frequency jumps, when disturbance
+s of different modes exchange stability.
+ Although a quantitative theory of this process does not not currently exist.
+ It is known that in between jumps the emitted frequency obeys the relation
+ 
+\begin_inset Formula $\frac{fL}{U_{c}}\approx n-\frac{1}{4}$
+\end_inset
+
+, where 
+\begin_inset Formula $L$
+\end_inset
+
+ is the length in between the plates, 
+\begin_inset Formula $U_{c}\approx U$
+\end_inset
+
+ is the convection velocity of the vortex rings, and n is the mode number
+ of the disturbance.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "trp"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,20 @@
+\documentclass[superscriptaddress, twocolumn, prl]{revtex4}
+
+\usepackage{amsmath}    % need for subequations
+\usepackage[pdftex]{graphicx}   % need for figures
+\usepackage{verbatim}   % useful for program listings
+\usepackage{color}      % use if color is used in text
+\usepackage{subfigure}  % use for side-by-side figures
+\usepackage{hyperref}   % use for hypertext links, including those to external documents and URLs
+\allowdisplaybreaks
+
+\begin{document}
+\appendix
+\section{\label{App:add_data}Appendix: Cost Function and Additional Data}
+\begin{align*}
+\label{eq:cost}
+\Delta x_{i_{c}} &= \left\vert f_{1,i_{c}}-\frac{f_{1,i_{c}}+m\left(c,\gamma\right)f_{2,i_{c}}}{m\left(c,\gamma\right)^{2}+1}\right\vert
+\\ \Delta y_{i_c} &= \left\vert f_{2,i_{c}}-\frac{m\left(c,\gamma\right)\left(f_{1,i_{c}}+m\left(c,\gamma\right)f_{2,i_{c}}\right)}{m\left(c,\gamma\right)^{2}+1}  \right\vert
+\\ C\left(\gamma\right) &= \sum_{c}\frac{1}{N_{c}}\sum_{i_c=1}^{N_{c}}\left(\Delta x_{i_c}\right)^{2}+\left(\Delta y_{i_c}\right)^{2}
+\end{align*}
+\end{document}

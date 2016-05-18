@@ -1,0 +1,5 @@
+pdflatex jump_paper
+bibtex jump_paper
+pdflatex jump_paper
+pdflatex jump_paper
+okular jump_paper.pdf
